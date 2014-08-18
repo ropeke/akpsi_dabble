@@ -7,6 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./bootstrap_3.1.1/js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('.position-heading').scrollToFixed();
+    });
+    </script>
     <!-- This is a TODO!!! -->
     <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.ico"> -->
 
@@ -51,12 +58,12 @@
     <div class="class-divider" id="ecomm">
         <h1 class="position-heading">The 2014-2015 Executive Committee</h1>
         <div class="president col-xs-6">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ag/wei-ling_heng.jpg"/>
+          <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/wei-ling_heng.jpg"/>
           <h3 class="name center-text">Wei-Ling Heng</h3>
           <h4 class="position center-text">President</h4>
         </div>
         <div class="president col-xs-6">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ag/natalie_luu.jpg"/>
+          <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/natalie_luu.jpg"/>
           <h3 class="name center-text">Natalie Luu</h3>
           <h4 class="position center-text">President</h4>
         </div>
@@ -102,75 +109,68 @@
         </div>
     </div>
     <div class="actives">
-      <h1 class="position-heading">Active Members</h1>
-      <h2 class="class-heading">Alpha Beta</h2>
-      <div class="class-divider" id="alphabeta">
-        <div class="vp col-xs-6 col-md-4">
+      <h1 class="position-heading">Active Membership</h1>
+      <div class="class-divider" id="active-membership">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Saunders Hayes</h4>
         </div>
-        <div class="vp col-xs-6 col-md-4">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Devon Hinton</h4>
         </div>
-        <div class="vp col-xs-6 col-md-4">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/ab/kaiyuan_neo.jpg"/>
           <h4 class="name center-text">Kai-Yuan Neo</h4>
         </div>
-      </div>
-      <h2 class="class-heading">Alpha Delta</h2>
-      <div class="class-divider" id="alphadeltas">
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/ad/camilo_arevalo.jpg"/>
           <h4 class="name center-text">Camilo Arevalo</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/ad/will_chen.jpg"/>
           <h4 class="name center-text">Will Chen</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Inseong Cho</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/ad/nicole_cuenca.jpg"/>
           <h4 class="name center-text">Nicole Cuenca</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Emma Guth</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Steve Kim</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Daniel Liem</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Leo Martel</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Anjney Midha</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/ad/natalie_nguyen.jpg"/>
           <h4 class="name center-text">Natalie Nguyen</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Ryan Perez</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Oscar Wong</h4>
         </div>
-      </div>
-      <h2 class="class-heading">Alpha Epsilon</h2>
-      <div class="class-divider" id="alphaepsilon">
         <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Kelvin Do</h4>
@@ -207,40 +207,34 @@
           <img class="portrait center" src="./bootstrap_3.1.1/img/ae/linda_yu.jpg"/>
           <h4 class="name center-text">Linda Yu</h4>
         </div>
-      </div>
-      <h2 class="class-heading">Alpha Gamma</h2>
-      <div class="class-divider" id="alphagamma">
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Henry Yuhao Cao</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/ag/francisco_cortes.jpg"/>
           <h4 class="name center-text">Francisco Cortes</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/ag/brandon_garcia.jpg"/>
           <h4 class="name center-text">Brandon Garcia</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/ag/chad_kamisugi.jpg"/>
           <h4 class="name center-text">Chad Kamisugi</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Sunli Kim</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
           <h4 class="name center-text">Naveen Krishnamurthi</h4>
         </div>
-        <div class="vp col-xs-6 col-md-2">
+        <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/ag/justin_wiguna.jpg"/>
           <h4 class="name center-text">Justin Wiguna</h4>
         </div>
-      </div>
-      <h2 class="class-heading">Alpha Zeta</h2>
-      <div class="class-divider" id="alphazeta">
         <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/az/heather_aholt.JPG"/>
           <h4 class="name center-text">Heather Aholt</h4>
@@ -322,22 +316,11 @@
           <h4 class="name center-text">Chenyao Yu</h4>
         </div>
       </div>
-      <h2 class="class-heading">Kappa</h2>
+      <h2 class="class-heading">Chapter Advisor</h2>
       <div class="class-divider" id="kappa">  
         <div>
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
-          <h4 class="name center-text">David Wang</h4>
-        </div>
-      </div>
-      <h2 class="class-heading">Omega</h2>
-      <div class="class-divider" id="omega">
-        <div class="col-xs-6 col-md-6">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
-          <h4 class="name center-text">Tamer Shabani</h4>
-        </div>
-        <div class="col-xs-6 col-md-6">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
-          <h4 class="name center-text">Sharleen Tu</h4>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/stephen_quinonez.jpg"/>
+          <h4 class="name center-text">Stephen Quiñonez</h4>
         </div>
       </div>
     </div>
@@ -348,9 +331,6 @@
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"/>
-  <script src="./bootstrap_3.1.1/js/bootstrap.min.js"/>
-  <script src="./bootstrap_3.1.1/js/docs.min.js"/>
 
 </body>
 </html>

@@ -94,6 +94,11 @@ body {
 }
 
 .portrait {
+	width: 60%;
+	height: 60%;
+	margin-top: 25px;
+}
+.portrait-pres {
 	width: 30%;
 	height: 30%;
 	margin-top: 25px;
